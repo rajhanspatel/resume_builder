@@ -1,4 +1,4 @@
-import 'package:resume_builder_app/pages/utills/heders_utills.dart';
+import 'package:resume_builder_2/pages/utills/heders_utills.dart';
 
 class BuildOptionl extends StatefulWidget {
   const BuildOptionl({super.key});
@@ -28,8 +28,10 @@ class _BuildOptionlState extends State<BuildOptionl> {
             crossAxisSpacing: 10.0, // spacing between columns
             mainAxisExtent: 225,
           ),
-          padding: const EdgeInsets.all(8.0), // padding around the grid
-          itemCount: MyRoutes.buildOptions.length, // total number of items
+          padding: const EdgeInsets.all(8.0),
+          // padding around the grid
+          itemCount: MyRoutes.buildOptions.length,
+          // total number of items
           itemBuilder: (context, index) {
             return GestureDetector(
               onTap: () {
