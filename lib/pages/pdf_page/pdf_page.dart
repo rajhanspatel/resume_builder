@@ -1,5 +1,5 @@
 import 'package:printing/printing.dart';
-import 'package:resume_builder_app/pages/utills/heders_utills.dart';
+import 'package:resume_builder_2/pages/utills/heders_utills.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 
